@@ -1,0 +1,92 @@
+{
+    "encabezado":{
+        "linea1": "ABOUT ME",
+        "linea2": "CURRICULUM",
+        "linea3": "PORTFOLIO",
+        "linea4": "CONTACT"
+    },
+    "inicio":{
+        "saludo": "¡Welcome to my portfolio!",
+        "puesto": "Software developer.",
+        "description": "Technology has always been a source of inspiration for me. I am driven by curiosity to discover new tools and methods, and I enjoy the learning process. I am committed to constantly improving and reaching a high level as a programmer. I invite you to see my <a href=\"#portfolio\">projects.</a> ¡Thank you for visiting me!"
+    },
+    "sobremi":{
+        "titulo": "About me",
+        "linea1": "Let me introduce myself. I’m Diego, passionate about the digital world.",
+        "linea2": "My passion for technology came from my curiosity to discover new things and understand how they work. Although I want to specialize as a backend developer in the future, I’m currently exploring various frontend and backend tools to gain a more complete view of software development.",
+        "linea3": "I started programming by trying to learn on YouTube, but it was an introductory course that truly sparked my interest. That awakened my curiosity to learn more and led me to dive deeper into this field. Since then, I’ve continued studying, and I am now focused on my career as a software developer.",
+        "linea4": "If you have an idea or project in mind, don’t hesitate to contact me. I’m always open to collaborating and taking on new challenges.",
+        "information": "More information",
+        "dato": "Networking",
+        "dato1": "Position",
+        "dato2": "Contact me",
+        "dato3": "Click here",
+        "dato4": "Others",
+        "interes": "Interest",
+        "juego": "GAMES",
+        "music": "MUSIC",
+        "viaje": "TRAVEL",
+        "deporte": "SPORT"
+    },
+    "curriculum": {
+        "education": "Education",
+        "titulo": "Course - Introduction to Programming",
+        "subtitulo": "Codo a Codo",
+        "fecha": "July 2023 - December 2023",
+        "tecnologia": "Technology: Java - database (MySQL)",
+        
+        "titulo1": "Course - JAVA Full Stack",
+        "subtitulo1": "Codo a Codo",
+        "fecha1": "February 2024 - July 2024",
+        "tecnologia1": "Technolgy: Html - css - boostrap - Git - Vue - Javascript - Java - database",
+
+        "titulo2": "Software developer",
+        "subtitulo2": "IES7",
+        "fecha2": "March 2024 - present.",
+        "tecnologia2": "Software development technicality.", 
+
+        "experiencia": "Experience",
+        "titulo3": "Back-end Developer",
+        "subtitulo3": "project",
+        "fecha3": "October 2023 - December 2023",
+        "detalle": "For two months, I participated in a group development project to create an administrative system built with Java and MySQL. We worked together to design and build a CRUD (Create, Read, Update, Delete) system that made administrative data management intuitive and secure. We collaborated effectively, dividing tasks according to our individual strengths.",
+
+        "titulo4": "Front-end Developer",
+        "subtitulo4": "Project",
+        "fecha4": "May 2024 - July 2024",
+        "detalle1": "I worked in a team to develop a movie-focused website that connects to an API to fetch updated information and display it to users. The goal of the project was to provide a simple and dynamic visual experience, allowing users to explore different movies and view their details. As a group, we collaborated on implementing the frontend using HTML, CSS, JavaScript, and Bootstrap.",
+
+        "ver": "view project",
+        "cv": "Download CV <i class=\"fa-solid fa-download\"></i> <span class=\"overlay\"></span>"
+    },
+    "contacto": {
+        "inicio": "HOME",
+        "contact": "CONTACT",
+        "nombre": "Full Name",
+        "nom-error": "Full Name can't be blank.",
+        "email": "Email address",
+        "email-error": "Email Address can't be blank.",
+        "asunto": "Subject",
+        "asunto-error": "Subject can't be blank.",
+        "men": "Message",
+        "mensaje-error": "Message can't be blank.",
+        "enviar": "Send Message <i class=\"fa-solid fa-paper-plane\"></i>"
+    },
+    "portfolio":{
+        "titulo":"Hogar de patitas",
+        "description": "Personal project to adopt pets online.",
+        "link": "View",
+        "titulo2": "My portfolio",
+        "description2": "Personal project",
+        "titulo3": "Password generator",
+        "description3": "Academic project",
+        "titulo4": "Online store",
+        "description4": "Academic project",
+        "titulo5": "Form",
+        "description5": "Academic project",
+        "titulo6": "Music player",
+        "description6": "Academic project"
+    }
+
+    
+}

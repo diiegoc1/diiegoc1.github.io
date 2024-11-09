@@ -1,0 +1,86 @@
+{
+    "encabezado": {
+        "linea1": "SOBRE MI",
+        "linea2": "CURRICULUM",
+        "linea3": "PORTFOLIO",
+        "linea4": "CONTACTO"
+    },
+    "inicio": {
+        "saludo": "¡Bienvenido a mi portfolio!",
+        "puesto": "Desarollador de Software.",
+        "description": "La tecnología siempre ha sido una fuente de inspiración para mí. Me impulsa la curiosidad por descubrir nuevas herramientas y métodos, y disfruto el proceso de aprendizaje. Estoy comprometido a mejorar constantemente y a alcanzar un alto nivel como programador. Te invito a ver mis <a href=\"#portfolio\">proyectos.</a> ¡Gracias por visitarme!"
+    },
+    "sobremi": {
+        "titulo": "Sobre Mí",
+        "linea1": "Permiteme presentarme. Soy Diego, un apasionado del mundo digital.",
+        "linea2": "Mi pasión por la tecnología surgió de la curiosidad por descubrir nuevas cosas y entender cómo funcionan. Aunque en el futuro quiero especializarme como desarrollador backend, actualmente estoy explorando diversas herramientas tanto del frontend como del backend para tener una visión más completa del desarrollo de software.",
+        "linea3": "Empecé en la programación intentando aprender por YouTube, pero fue un curso introductorio lo que realmente despertó mi interés. Eso despertó mi curiosidad por aprender más y me llevó a profundizar en este campo. Desde entonces, he seguido estudiando y ahora estoy enfocado en mi carrera como desarrollador de software.",
+        "linea4": "Si tienes alguna idea o proyecto en mente, no dudes en contactarme. Estoy siempre dispuesto a colaborar y participar en nuevos desafíos.",
+        "information": "Más información",
+        "dato": "Redes",
+        "dato1": "Cargo",
+        "dato2": "Contactame",
+        "dato3": "Click aqui",
+        "dato4": "Otros",
+        "interes": "Intereses",
+        "juego": "JUEGOS",
+        "music": "MUSICA",
+        "viaje": "VIAJAR",
+        "deporte": "DEPORTE"
+    },
+    "curriculum": {
+        "education": "Educación",
+        "titulo": "Curso - Introducción a la programación",
+        "subtitulo": "Codo a Codo",
+        "fecha": "Julio 2023 - Diciembre 2023",
+        "tecnologia": "Tecnologias: Java - Base de datos (MySQL)",
+        "titulo1": "Curso - JAVA Full Stack",
+        "subtitulo1": "Codo a Codo",
+        "fecha1": "Febrero 2024 - Julio 2024",
+        "tecnologia1": "Tecnologias: Html - css - boostrap - Git - Vue - Javascript - Java - Base de datos",
+        "titulo2": "Desarrollo de software",
+        "subtitulo2": "IES7",
+        "fecha2": "Marzo 2024 - presente.",
+        "tecnologia2": "Tecnicatura en desarrollo de software.",
+        "experiencia": "Experiencia",
+        "titulo3": "Back-end Developer",
+        "subtitulo3": "Proyecto",
+        "fecha3": "Octubre 2023 - Diciembre 2023",
+        "detalle": "Durante dos meses, participé en un proyecto de desarrollo en grupo para crear un sistema administrativo hecho con Java y MySQL. Trabajamos en conjunto para diseñar y construir un CRUD (Create, Read, Update, Delete) que facilitara la gestión de datos administrativos de manera intuitiva y segura. Trabajamos de manera colaborativa, dividiendo las tareas según nuestras fortalezas individuales.",
+        "titulo4": "Front-end Developer",
+        "subtitulo4": "Proyecto",
+        "fecha4": "Mayo 2024 - Julio 2024",
+        "detalle1": "Trabajé en equipo para desarrollar una página web enfocada en películas, la cual se conecta a una API para obtener información actualizada y mostrarla a los usuarios. El objetivo del proyecto fue brindar una experiencia visual simple y dinámica, permitiendo a los usuarios explorar diferentes películas, consultar sus detalles. Como grupo, colaboramos en la implementación del frontend usando HTML, CSS, JavaScript y Bootstrap.",
+        "ver": "ver proyecto",
+        "cv": "Descargar CV <i class=\"fa-solid fa-download\"></i> <span class=\"overlay\"></span>"
+    },
+    "contacto": {
+        "inicio": "INICIO",
+        "contact": "CONTACTO",
+        "nombre": "Nombre Completo",
+        "nom-error": "Nombre no puede estar vacío.",
+        "email": "Dirección de correo",
+        "email-error": "Email no puede estar vacío.",
+        "asunto": "Asunto",
+        "asunto-error": "Asunto no puede estar vacío.",
+        "men": "Mensaje",
+        "mensaje-error": "Mensaje no puede estar vacío.",
+        "enviar": "Enviar Mensaje <i class=\"fa-solid fa-paper-plane\"></i>"
+    },
+    "portfolio": {
+        "titulo": "Hogar de patitas",
+        "description": "Proyecto personal para adoptar mascotas de manera online.",
+        "link": "Ver",
+        "titulo2": "Mi portfolio",
+        "description2": "Proyecto personal",
+        "titulo3": "Generador de contraseñas",
+        "description3": "Proyecto académico",
+        "titulo4": "Tienda online",
+        "description4": "Proyecto académico",
+        "titulo5": "Formulario",
+        "description5": "Proyecto académico",
+        "titulo6": "Reproductor de música",
+        "description6": "Proyecto académico"
+
+    }
+}

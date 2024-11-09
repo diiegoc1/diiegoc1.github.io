@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style_contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <nav id="nav">
+                <ul>
+                    <li><a data-section="contacto" data-value="inicio" href="../index.html"
+                            onclick="seleccionar()">INICIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2 data-section="contacto" data-value="contact">CONTACTO</h2>
+            <form action="#">
+                <div class="fila">
+                    <!-- Formulario -->
+
+                    <div class="col">
+                        <input data-section="contacto" data-value="nombre" class="item" id="nombre" type="text"
+                            placeholder="Nombre completo" autocomplete="off">
+                        <div data-section="contacto" data-value="nom-error" class="txt-error">Nombre no puede estar vacío.</div>
+
+                        <input data-section="contacto" data-value="email" class="item" id="correo" type="email" placeholder="Dirección de correo"
+                            autocomplete="off">
+                        <div data-section="contacto" data-value="email-error" class="txt-error">Email no puede estar vacío.</div>
+
+                        <input data-section="contacto" data-value="asunto" class="item" id="tema" type="text" placeholder="Asunto" autocomplete="off">
+                        <div data-section="contacto" data-value="asunto-error" class="txt-error">Asunto no puede estar vacío.</div>
+
+                        <textarea data-section="contacto" data-value="men" class="item" name="" id="mensaje" cols="20" rows="8" placeholder="Mensaje"></textarea>
+                        <div data-section="contacto" data-value="mensaje-error" class="txt-error">Mensaje no puede estar vacío.</div>
+
+                        <button data-section="contacto" data-value="enviar" type="submit">
+                            Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="foter_foter">
+        <div class="idioma" id="idioma">
+            <span>Cambiar idioma: </span>
+            <div class="items" data-language="es">
+                <img src="../img/reducido.png" alt="">
+            </div>
+            <div class="items" data-language="en">
+                <img src="../img/estados-unidos.png" alt="">
+            </div>
+        </div>
+
+        <span class="footer_block">Copyright © 2024. All rights reserved.</span>
+    </footer>
+
+
+    <!-- script para enviar email -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- script alerta -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- otros -->
+    <script src="script_contact.js"></script>
+    <script src="script_idioma.js"></script>
+</body>
+
+</html>

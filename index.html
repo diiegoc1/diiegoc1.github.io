@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <nav id="nav">
+                <ul>
+                    <li><a data-section="encabezado" data-value="linea1" href="#sobremi" onclick="seleccionar()">SOBRE
+                            MI</a></li>
+                    <li><a data-section="encabezado" data-value="linea2" href="#curriculum"
+                            onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a data-section="encabezado" data-value="linea3" href="#portfolio"
+                            onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a data-section="encabezado" data-value="linea4" href="contacto/index_contact.html"
+                            onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/pickyjones-20230901-0001.jpg" alt="">
+            </div>
+            <h1 data-section="inicio" data-value="saludo">¡Bienvenido a mi portfolio!</h1>
+            <h2 data-section="inicio" data-value="puesto">Desarollador de Software.</h2>
+
+            <h3 data-section="inicio" data-value="description">La tecnología siempre ha sido una fuente de inspiración
+                para mí. Me impulsa la curiosidad por
+                descubrir nuevas herramientas y métodos, y disfruto el proceso de aprendizaje. Estoy
+                comprometido a mejorar constantemente y a alcanzar un alto nivel como programador.
+                Te invito a ver mis <a href="#portfolio">proyectos.</a> ¡Gracias por visitarme!
+            </h3>
+
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion ">
+            <h2 data-section="sobremi" data-value="titulo">Sobre Mí</h2>
+            <p data-section="sobremi" data-value="linea1">Permiteme presentarme. Soy Diego, un apasionado del mundo
+                digital.</p>
+            <p data-section="sobremi" data-value="linea2">Mi pasión por la tecnología surgió de
+                la curiosidad por descubrir nuevas cosas y entender cómo funcionan. Aunque en el futuro quiero
+                especializarme como desarrollador backend, actualmente estoy explorando diversas herramientas tanto del
+                frontend como del backend para tener una visión más completa del desarrollo de software.</p>
+            <p data-section="sobremi" data-value="linea3"> Empecé en la programación intentando aprender por
+                YouTube, pero fue un curso introductorio lo que
+                realmente despertó mi interés. Eso despertó mi curiosidad por aprender más y me llevó a profundizar en
+                este campo. Desde entonces, he seguido estudiando y ahora estoy enfocado en mi carrera como
+                desarrollador de software.</p>
+            <p data-section="sobremi" data-value="linea4"> Si tienes alguna idea o proyecto en mente, no dudes en
+                contactarme. Estoy siempre dispuesto a colaborar
+                y participar en nuevos desafíos.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3 data-section="sobremi" data-value="information">Más información</h3>
+                    <ul>
+                        <li>
+                            <strong data-section="sobremi" data-value="dato">Redes</strong>
+                            <a target="_blank" href="https://www.linkedin.com/in/diiegoc/"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a target="_blank" href="https://github.com/diiegoc1"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li>
+                            <strong data-section="sobremi" data-value="dato1">Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                        <li>
+                            <strong data-section="sobremi" data-value="dato2">Contactame</strong>
+                            <a data-section="sobremi" data-value="dato3" href="contacto/index_contact.html">Click aqui</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- SKILSS -->
+                <div class="col">
+                    <h3>Skill Front-end</h3>
+                    <div class="contenedor-nuevo">
+                        <div class="dato">
+                            <i class="bi bi-filetype-html"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="dato">
+                            <i class="bi bi-filetype-css"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="dato">
+                            <i class="bi bi-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                    <h3>Skill Back-end</h3>
+                    <div class="contenedor-nuevo">
+                        <div class="dato">
+                            <i class="bi bi-filetype-java"></i>
+
+                            <span>JAVA</span>
+                        </div>
+                        <div class="dato">
+                            <i class="bi bi-filetype-sql"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                    <h3 data-section="sobremi" data-value="dato4">Otros</h3>
+                    <div class="contenedor-nuevo">
+                        <div class="dato">
+                            <i class="bi bi-git"></i>
+                            <span>Git</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3 data-section="sobremi" data-value="interes">Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span data-section="sobremi" data-value="juego">JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span data-section="sobremi" data-value="music">MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span data-section="sobremi" data-value="viaje">VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span data-section="sobremi" data-value="deporte">DEPORTE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="curriculum">
+        <hr>
+    </section>
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3 data-section="curriculum" data-value="education">Educación</h3>
+                    <div class="item izq">
+                        <h4 data-section="curriculum" data-value="titulo">Curso - Introducción a la programación</h4>
+                        <span data-section="curriculum" data-value="subtitulo" class="casa">Codo a Codo</span>
+                        <span data-section="curriculum" data-value="fecha" class="fecha">Julio 2023 - Diciembre 2023</span>
+                        <p data-section="curriculum" data-value="tecnologia">Tecnologias: Java - Base de datos (MySQL)</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4 data-section="curriculum" data-value="titulo1">Curso - JAVA Full Stack</h4>
+                        <span data-section="curriculum" data-value="subtitulo1" class="casa">Codo a Codo</span>
+                        <span data-section="curriculum" data-value="fecha1" class="fecha">Febrero 2024 - Julio 2024</span>
+                        <p data-section="curriculum" data-value="tecnologia1">Tecnologias: Html - css - bootstrap - Git - Vue - Javascript - Java - Base de datos</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4 data-section="curriculum" data-value="titulo2">Desarrollo de software</h4>
+                        <span data-section="curriculum" data-value="subtitulo2" class="casa">IES7</span>
+                        <span data-section="curriculum" data-value="fecha2" class="fecha">Marzo 2024 - presente.</span>
+                        <p data-section="curriculum" data-value="tecnologia2">Tecnicatura en desarrollo de software.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3 data-section="curriculum" data-value="experiencia">Experiencia</h3>
+                    <div class="item der">
+                        <h4 data-section="curriculum" data-value="titulo3">Back-end Developer</h4>
+                        <span data-section="curriculum" data-value="subtitulo3" class="casa">Proyecto</span>
+                        <span data-section="curriculum" data-value="fecha3" class="fecha">Octubre 2023 - Diciembre 2023</span>
+                        <p data-section="curriculum" data-value="detalle">Durante dos meses, participé en un proyecto de desarrollo en grupo para crear un sistema
+                            administrativo hecho con Java y MySQL. Trabajamos en conjunto para diseñar y construir un
+                            CRUD (Create, Read, Update, Delete) que facilitara la gestión de datos administrativos de
+                            manera intuitiva y segura. Trabajamos de manera colaborativa, dividiendo las tareas según
+                            nuestras fortalezas individuales.
+                        </p>
+                        <a data-section="curriculum" data-value="ver" target="_blank" href="https://github.com/diiegoc1/Proyecto-Final-Codo-a-Codo">ver
+                            proyecto</a>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4 data-section="curriculum" data-value="titulo4">Front-end Developer</h4>
+                        <span data-section="curriculum" data-value="subtitulo4" class="casa">Proyecto</span>
+                        <span data-section="curriculum" data-value="fecha4" class="fecha">Mayo 2024 - Julio 2024</span>
+                        <p data-section="curriculum" data-value="detalle1">Trabajé en equipo para desarrollar una página web enfocada en películas, la cual se conecta a
+                            una API para obtener información actualizada y mostrarla a los usuarios. El objetivo del
+                            proyecto fue brindar una experiencia visual simple y dinámica, permitiendo a los usuarios
+                            explorar diferentes películas, consultar sus detalles. Como grupo, colaboramos en la
+                            implementación del frontend usando HTML, CSS, JavaScript y Bootstrap.
+                        </p>
+                        <a data-section="curriculum" data-value="ver" target="_blank" href="https://github.com/diiegoc1/PaginaWeb">ver
+                            proyecto</a>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button data-section="curriculum" data-value="cv" type="button" id="showToast">
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+        <!-- Estructura del Toast -->
+        <div class="toast-container position-fixed bottom-0 end-0">
+            <div id="myToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">¡Descarga de CV!</strong>
+                    <button type="button" class="btn-close text-white" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+                <div class="toast-body text-body-secondary">
+                    Este módulo esta en reparación... ¡Pronto novedades!
+                </div>
+            </div>
+        </div>
+        <!-- Script para mostrar el Toast -->
+        <script>
+            // Script para mostrar el Toast
+            document.addEventListener('DOMContentLoaded', function () {
+                // Obtener el botón "Enviar" y el Toast
+                var showToastButton = document.getElementById('showToast');
+                var toastElement = document.getElementById('myToast');
+
+                // Inicializar el Toast (sin mostrarlo aún)
+                var toast = new bootstrap.Toast(toastElement, {
+                    autohide: true,  // Permitir que se oculte automáticamente
+                    delay: 7000      // Tiempo en milisegundos antes de ocultarse 
+                });
+
+                // Mostrar el toast solo al hacer clic en "Enviar"
+                showToastButton.addEventListener('click', function () {
+                    toast.show();  // Muestra el toast
+                });
+            });
+
+        </script>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/portada1.jpg" alt="">
+                    <div class="overlay">
+                        <h3 data-section="portfolio" data-value="titulo">Hogar de patitas</h3>
+                        <p data-section="portfolio" data-value="description">Proyecto personal para adoptar mascotas de manera online.</p>
+                        <a data-section="portfolio" data-value="link" target="_blank" href="https://diiegoc1.github.io/hogar-de-patitas/">Ver</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portada2.jpg" alt="">
+                    <div class="overlay">
+                        <h3 data-section="portfolio" data-value="titulo2">Mi portfolio</h3>
+                        <p data-section="portfolio" data-value="description2">Proyecto personal</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portada3.jpg" alt="">
+                    <div class="overlay">
+                        <h3 data-section="portfolio" data-value="titulo3">Generador de contraseñas</h3>
+                        <p data-section="portfolio" data-value="description3">Proyecto académico</p>
+                        <a data-section="portfolio" data-value="link" target="_blank" href="https://diiegoc1.github.io/generador-password/">Ver</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portada4.jpg" alt="">
+                    <div class="overlay">
+                        <h3 data-section="portfolio" data-value="titulo4">Tienda online</h3>
+                        <p data-section="portfolio" data-value="description4">Proyecto académico</p>
+                        <a data-section="portfolio" data-value="link" target="_blank" href="https://diiegoc1.github.io/tiendaonline/">Ver</a>
+                        
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portada5.jpg" alt="">
+                    <div class="overlay">
+                        <h3 data-section="portfolio" data-value="titulo5">Formulario</h3>
+                        <p data-section="portfolio" data-value="description5">Proyecto académico</p>
+                        <a data-section="portfolio" data-value="link" target="_blank" href="https://diiegoc1.github.io/formulario/">Ver</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portada6.jpg" alt="">
+                    <div class="overlay">
+                        <h3 data-section="portfolio" data-value="titulo6">Reproductor de música</h3>
+                        <p data-section="portfolio" data-value="description6">Preyecto académico</p>
+                        <a data-section="portfolio" data-value="link" target="_blank" href="https://diiegoc1.github.io/reproductor/">Ver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="foter_foter">
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+
+        <div class="idioma" id="idioma">
+            <span>Cambiar idioma: </span>
+            <div class="items" data-language="es">
+                <img src="img/reducido.png" alt="">
+            </div>
+            <div class="items" data-language="en">
+                <img src="img/estados-unidos.png" alt="">
+            </div>
+        </div>
+
+        <span class="footer_block">Copyright © 2024. All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Scrips para funciones extras -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Script base -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
